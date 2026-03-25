@@ -1,8 +1,8 @@
-## Welcome to Dea/L0
+# Welcome to Dea!
 
 Hi, and welcome, compiler enthusiasts and systems folks!
 
-We're growing a new, small, and carefully designed systems programming language called **Dea**.
+We're building a new, small, and carefully designed systems programming language called **Dea**.
 
 The way it's being grown is through a sequence of increasingly powerful languages that build on each
 other. We're starting with **Dea/L0**, or just **L0** when we're being terse.
@@ -12,9 +12,7 @@ deterministic resource management, ARC-managed strings, and sum types with patte
 from the beginning the plan was to write its compiler in Dea itself.
 
 **That plan is now reality.** The Stage 2 compiler is self-hosted: it compiles itself, and the
-result is verified through a strict triple-bootstrap fixed-point test (S1->S2, S2->S2, S2->S2; the
-retained generated C must match byte-for-byte, and on stable host toolchains the normalized native
-binaries must match as well).
+result is verified through a strict triple-bootstrap fixed-point test.
 
 Here's where things stand today:
 
@@ -28,9 +26,8 @@ Here's where things stand today:
 - **API docs**: generated HTML on GitHub Pages, PDF release assets, and optional Chirpy blog
   integration.
 
-So many alternatives exist for a bootstrap language, but we cut the bikeshedding short and settled
-on Python, for simplicity and ease of prototyping. That choice paid off: Stage 1 is now a proven
-bootstrap path, and the real compiler is Dea all the way down.
+We chose Python for the bootstrap compiler — simplicity and fast prototyping. That choice paid off:
+Stage 1 is now a proven bootstrap path, and the real compiler is Dea all the way down.
 
 The next step is **Dea/L1**. Dea/L0 is the compiler base that will be used to build it.
 
