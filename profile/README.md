@@ -68,9 +68,10 @@ Dea is licensed under either the
 
 ## The Dea language team
 
-- `gwz` a.k.a. [googlielmo](https://github.com/googlielmo) - creator and lead developer - blog:
+- [googlielmo](https://github.com/googlielmo) a.k.a. `gwz` | creator and lead developer | blog:
   [googlielmo.github.io](https://googlielmo.github.io)
-- `[your name here]` - perhaps you could be part of this too!
+- [gidad](https://github.com/gidad) | project advisor
+- `[your name here]` | perhaps you could be part of this too!
 
 Best,
 
