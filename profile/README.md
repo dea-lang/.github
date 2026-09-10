@@ -22,7 +22,7 @@ each level eventually implements its own compiler and becomes the foundation for
 
 **Dea/L0** is the current stable language level.
 
-- released as **L0 2.0.0**
+- released as **L0 2.1.0**
 - self-hosted through its Stage 2 compiler, written in L0 itself
 - verified through a triple-bootstrap fixed-point test
 - supported on Linux, macOS, and Windows
